@@ -1,0 +1,13 @@
+#archivos del sistema
+.Ds_Store
+Thumbs.db
+
+#carpetas de dependencia
+node_modules/
+
+#archivos de entorno
+.env
+
+#archivos de mi id
+.vscode/
+.idea/

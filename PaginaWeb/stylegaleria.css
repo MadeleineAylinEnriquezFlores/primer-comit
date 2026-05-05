@@ -1,0 +1,29 @@
+body{
+    background-image: url(fondogaleria.jpg);
+}
+h1{
+    background-color: rgb(240, 193, 64);
+    text-align: center;
+    color: white;
+    font-family: "Press Start 2P", system-ui;
+    border-radius: 20px;
+}
+.galeria{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.galeria img{
+    width: 32%;
+    height: 200px;
+    object-fit: cover;
+}
+/*para celular*/
+@media(max-width:480px){
+    .galeria img{
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+}
+
+}
